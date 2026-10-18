@@ -1,0 +1,7 @@
+# Optional: host the JSON Server API on Render, then set VITE_API_URL on Netlify/Vercel to its URL.
+services:
+  - type: web
+    name: productpulse-api
+    runtime: node
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js

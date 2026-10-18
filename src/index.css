@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --brand-rgb: 79 70 229; }
+
+@layer base {
+  body { @apply bg-slate-50 text-slate-800 antialiased; }
+  :focus-visible { outline: 2px solid rgb(var(--brand-rgb)); outline-offset: 2px; }
+}
+
+@layer components {
+  .card { @apply rounded-xl border border-slate-200 bg-white; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-3.5 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply bg-brand text-white hover:opacity-90; }
+  .btn-secondary { @apply border border-slate-300 bg-white text-slate-700 hover:bg-slate-50; }
+  .btn-danger { @apply bg-red-600 text-white hover:bg-red-700; }
+  .btn-ghost { @apply text-slate-600 hover:bg-slate-100; }
+  .btn-sm { @apply px-2.5 py-1.5 text-xs; }
+  .input { @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm placeholder:text-slate-400 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20 disabled:bg-slate-100; }
+  .input-error { @apply border-red-400 focus:border-red-500 focus:ring-red-200; }
+  .label { @apply mb-1 block text-sm font-medium text-slate-700; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

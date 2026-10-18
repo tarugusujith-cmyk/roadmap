@@ -1,0 +1,2311 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aarav Mehta",
+      "email": "owner@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 2,
+      "name": "Neha Kapoor",
+      "email": "admin@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 3,
+      "name": "Rohan Iyer",
+      "email": "pm@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 4,
+      "name": "Sara Khan",
+      "email": "customer@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 5,
+      "name": "Kabir Singh",
+      "email": "kabir@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 6,
+      "name": "Meera Nair",
+      "email": "meera@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 7,
+      "name": "Vikram Rao",
+      "email": "vikram@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 8,
+      "name": "Ananya Das",
+      "email": "ananya@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 9,
+      "name": "Tom Becker",
+      "email": "tom@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 10,
+      "name": "Liam Ortiz",
+      "email": "liam@demo.com",
+      "password": "demo123"
+    },
+    {
+      "id": 11,
+      "name": "Zoe Park",
+      "email": "zoe@demo.com",
+      "password": "demo123"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": 1,
+      "name": "Northwind CRM",
+      "description": "A CRM for small sales teams that want a clear pipeline without the admin overhead.",
+      "logoUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%234F46E5%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22Arial%22%20font-size%3D%2232%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%3EN%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "brandColor": "#4F46E5",
+      "publicRoadmap": true,
+      "ownerId": 1,
+      "createdAt": "2026-07-15T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "name": "Lumen Notes",
+      "description": "A calm notes app for people who think in Markdown.",
+      "logoUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%230D9488%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22Arial%22%20font-size%3D%2232%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%3EL%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "brandColor": "#0D9488",
+      "publicRoadmap": true,
+      "ownerId": 1,
+      "createdAt": "2026-08-14T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "name": "Harbor Analytics",
+      "description": "Product analytics for maritime logistics teams.",
+      "logoUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23BE123C%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20font-family%3D%22Arial%22%20font-size%3D%2232%22%20font-weight%3D%22700%22%20text-anchor%3D%22middle%22%20fill%3D%22%23fff%22%3EH%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "brandColor": "#BE123C",
+      "publicRoadmap": false,
+      "ownerId": 1,
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    }
+  ],
+  "workspaceMembers": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "userId": 1,
+      "role": "owner",
+      "status": "active",
+      "joinedAt": "2026-07-15T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "userId": 2,
+      "role": "admin",
+      "status": "active",
+      "joinedAt": "2026-07-16T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "userId": 3,
+      "role": "product_manager",
+      "status": "active",
+      "joinedAt": "2026-07-17T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "userId": 4,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-07-18T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "userId": 5,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-07-19T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 1,
+      "userId": 6,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-07-20T05:56:23.941Z"
+    },
+    {
+      "id": 7,
+      "workspaceId": 1,
+      "userId": 7,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-07-21T05:56:23.941Z"
+    },
+    {
+      "id": 8,
+      "workspaceId": 1,
+      "userId": 8,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-07-22T05:56:23.941Z"
+    },
+    {
+      "id": 9,
+      "workspaceId": 1,
+      "userId": 9,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-07-23T05:56:23.941Z"
+    },
+    {
+      "id": 10,
+      "workspaceId": 1,
+      "userId": 10,
+      "role": "customer",
+      "status": "invited",
+      "joinedAt": "2026-07-24T05:56:23.941Z"
+    },
+    {
+      "id": 11,
+      "workspaceId": 1,
+      "userId": 11,
+      "role": "customer",
+      "status": "suspended",
+      "joinedAt": "2026-07-25T05:56:23.941Z"
+    },
+    {
+      "id": 12,
+      "workspaceId": 2,
+      "userId": 1,
+      "role": "owner",
+      "status": "active",
+      "joinedAt": "2026-08-14T05:56:23.941Z"
+    },
+    {
+      "id": 13,
+      "workspaceId": 2,
+      "userId": 2,
+      "role": "admin",
+      "status": "active",
+      "joinedAt": "2026-08-15T05:56:23.941Z"
+    },
+    {
+      "id": 14,
+      "workspaceId": 2,
+      "userId": 3,
+      "role": "product_manager",
+      "status": "active",
+      "joinedAt": "2026-08-16T05:56:23.941Z"
+    },
+    {
+      "id": 15,
+      "workspaceId": 2,
+      "userId": 4,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-08-17T05:56:23.941Z"
+    },
+    {
+      "id": 16,
+      "workspaceId": 3,
+      "userId": 1,
+      "role": "owner",
+      "status": "active",
+      "joinedAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 17,
+      "workspaceId": 3,
+      "userId": 4,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-09-14T05:56:23.941Z"
+    },
+    {
+      "id": 18,
+      "workspaceId": 3,
+      "userId": 5,
+      "role": "customer",
+      "status": "active",
+      "joinedAt": "2026-09-15T05:56:23.941Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "name": "Reporting",
+      "color": "#4F46E5"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "name": "Integrations",
+      "color": "#0891B2"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "name": "Mobile",
+      "color": "#D97706"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "name": "Usability",
+      "color": "#059669"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "name": "Performance",
+      "color": "#DB2777"
+    },
+    {
+      "id": 6,
+      "workspaceId": 2,
+      "name": "Editor",
+      "color": "#0D9488"
+    },
+    {
+      "id": 7,
+      "workspaceId": 2,
+      "name": "Sync",
+      "color": "#2563EB"
+    },
+    {
+      "id": 8,
+      "workspaceId": 2,
+      "name": "Sharing",
+      "color": "#7C3AED"
+    },
+    {
+      "id": 9,
+      "workspaceId": 2,
+      "name": "Import/Export",
+      "color": "#EA580C"
+    },
+    {
+      "id": 10,
+      "workspaceId": 3,
+      "name": "Dashboards",
+      "color": "#BE123C"
+    },
+    {
+      "id": 11,
+      "workspaceId": 3,
+      "name": "Data sources",
+      "color": "#2563EB"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "name": "enterprise"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "name": "quick-win"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "name": "bug"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "name": "api"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "name": "design"
+    },
+    {
+      "id": 6,
+      "workspaceId": 2,
+      "name": "offline"
+    },
+    {
+      "id": 7,
+      "workspaceId": 2,
+      "name": "markdown"
+    },
+    {
+      "id": 8,
+      "workspaceId": 2,
+      "name": "teams"
+    },
+    {
+      "id": 9,
+      "workspaceId": 2,
+      "name": "bug"
+    },
+    {
+      "id": 10,
+      "workspaceId": 3,
+      "name": "beta"
+    },
+    {
+      "id": 11,
+      "workspaceId": 3,
+      "name": "api"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "title": "Scheduled weekly pipeline report",
+      "description": "Let managers schedule a pipeline summary that lands in their inbox every Monday morning.",
+      "categoryId": 1,
+      "submitterId": 4,
+      "tagIds": [
+        1,
+        2
+      ],
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-09-03T05:56:23.941Z",
+      "updatedAt": "2026-09-03T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "title": "Salesforce two-way sync",
+      "description": "We keep contacts in both systems. A two-way sync would remove the manual imports we do every week.",
+      "categoryId": 2,
+      "submitterId": 5,
+      "tagIds": [
+        1,
+        4
+      ],
+      "priority": "critical",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-09-08T05:56:23.941Z",
+      "updatedAt": "2026-09-08T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "title": "Native iOS app",
+      "description": "Reps need to log calls from the road. The mobile web experience is slow on cellular networks.",
+      "categoryId": 3,
+      "submitterId": 6,
+      "tagIds": [
+        1
+      ],
+      "priority": "high",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-09-13T05:56:23.941Z",
+      "updatedAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "title": "Bulk edit deal owners",
+      "description": "Reassigning twenty deals one by one is painful when someone leaves the team.",
+      "categoryId": 4,
+      "submitterId": 4,
+      "tagIds": [
+        2
+      ],
+      "priority": "medium",
+      "status": "completed",
+      "duplicateOf": null,
+      "createdAt": "2026-08-14T05:56:23.941Z",
+      "updatedAt": "2026-08-14T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "title": "Dashboard loads slowly with 50k contacts",
+      "description": "The home dashboard takes close to eight seconds to render for our largest account.",
+      "categoryId": 5,
+      "submitterId": 5,
+      "tagIds": [
+        3
+      ],
+      "priority": "high",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-09-23T05:56:23.941Z",
+      "updatedAt": "2026-09-23T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 1,
+      "title": "Slack notifications for won deals",
+      "description": "Post a message to a Slack channel when a deal moves to Closed Won.",
+      "categoryId": 2,
+      "submitterId": 6,
+      "tagIds": [
+        2,
+        4
+      ],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-25T05:56:23.941Z",
+      "updatedAt": "2026-09-25T05:56:23.941Z"
+    },
+    {
+      "id": 7,
+      "workspaceId": 1,
+      "title": "Dark mode",
+      "description": "Late-night pipeline reviews would be easier on the eyes with a dark theme.",
+      "categoryId": 4,
+      "submitterId": 4,
+      "tagIds": [
+        2,
+        5
+      ],
+      "priority": "low",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-28T05:56:23.941Z",
+      "updatedAt": "2026-09-28T05:56:23.941Z"
+    },
+    {
+      "id": 8,
+      "workspaceId": 1,
+      "title": "Email the pipeline report on a schedule",
+      "description": "I want the pipeline report emailed automatically every week.",
+      "categoryId": 1,
+      "submitterId": 5,
+      "tagIds": [],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": 1,
+      "createdAt": "2026-10-01T05:56:23.941Z",
+      "updatedAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 9,
+      "workspaceId": 1,
+      "title": "Custom fields on contacts",
+      "description": "We track contract renewal dates and need a place to store them on the contact record.",
+      "categoryId": 4,
+      "submitterId": 6,
+      "tagIds": [
+        1
+      ],
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-09-18T05:56:23.941Z",
+      "updatedAt": "2026-09-18T05:56:23.941Z"
+    },
+    {
+      "id": 10,
+      "workspaceId": 1,
+      "title": "Mobile push reminders for follow-ups",
+      "description": "Send a push notification when a follow-up task is due.",
+      "categoryId": 3,
+      "submitterId": 4,
+      "tagIds": [
+        2
+      ],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-04T05:56:23.941Z",
+      "updatedAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 11,
+      "workspaceId": 1,
+      "title": "Duplicate contact detection",
+      "description": "Warn me when I create a contact whose email already exists.",
+      "categoryId": 4,
+      "submitterId": 5,
+      "tagIds": [
+        3
+      ],
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-10-05T05:56:23.941Z",
+      "updatedAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 12,
+      "workspaceId": 1,
+      "title": "Export reports to PDF",
+      "description": "Executives ask for a PDF version of the quarterly forecast report.",
+      "categoryId": 1,
+      "submitterId": 6,
+      "tagIds": [
+        2
+      ],
+      "priority": "low",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-07T05:56:23.941Z",
+      "updatedAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 13,
+      "workspaceId": 1,
+      "title": "Public API rate limits are too strict",
+      "description": "Our nightly sync hits the rate limit after about 30 minutes.",
+      "categoryId": 2,
+      "submitterId": 4,
+      "tagIds": [
+        4
+      ],
+      "priority": "medium",
+      "status": "closed",
+      "duplicateOf": null,
+      "createdAt": "2026-10-08T05:56:23.941Z",
+      "updatedAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 14,
+      "workspaceId": 1,
+      "title": "iPhone app please",
+      "description": "Is there any plan to build an iPhone app? I would use it every day.",
+      "categoryId": 3,
+      "submitterId": 5,
+      "tagIds": [],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": 3,
+      "createdAt": "2026-10-10T05:56:23.941Z",
+      "updatedAt": "2026-10-10T05:56:23.941Z"
+    },
+    {
+      "id": 15,
+      "workspaceId": 2,
+      "title": "Offline mode for mobile",
+      "description": "I lose access to my notes on flights. Please cache notebooks for offline use.",
+      "categoryId": 7,
+      "submitterId": 4,
+      "tagIds": [
+        6
+      ],
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-09-10T05:56:23.941Z",
+      "updatedAt": "2026-09-10T05:56:23.941Z"
+    },
+    {
+      "id": 16,
+      "workspaceId": 2,
+      "title": "Markdown tables",
+      "description": "Support pipe tables with a visual editor for rows and columns.",
+      "categoryId": 6,
+      "submitterId": 4,
+      "tagIds": [
+        7
+      ],
+      "priority": "medium",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-09-13T05:56:23.941Z",
+      "updatedAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 17,
+      "workspaceId": 2,
+      "title": "Share notebooks with read-only links",
+      "description": "Let me send a link to a notebook that others can read but not edit.",
+      "categoryId": 8,
+      "submitterId": 4,
+      "tagIds": [
+        8
+      ],
+      "priority": "high",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-16T05:56:23.941Z",
+      "updatedAt": "2026-09-16T05:56:23.941Z"
+    },
+    {
+      "id": 18,
+      "workspaceId": 2,
+      "title": "Import from Evernote",
+      "description": "Moving my 2,000 notes from Evernote by hand is not realistic.",
+      "categoryId": 9,
+      "submitterId": 3,
+      "tagIds": [],
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-09-19T05:56:23.941Z",
+      "updatedAt": "2026-09-19T05:56:23.941Z"
+    },
+    {
+      "id": 19,
+      "workspaceId": 2,
+      "title": "Sync conflicts overwrite my edits",
+      "description": "Editing on phone and laptop at once silently drops changes.",
+      "categoryId": 7,
+      "submitterId": 4,
+      "tagIds": [
+        9
+      ],
+      "priority": "critical",
+      "status": "in_progress",
+      "duplicateOf": null,
+      "createdAt": "2026-09-22T05:56:23.941Z",
+      "updatedAt": "2026-09-22T05:56:23.941Z"
+    },
+    {
+      "id": 20,
+      "workspaceId": 2,
+      "title": "Slash commands",
+      "description": "Type / to insert headings, lists, code blocks and tables.",
+      "categoryId": 6,
+      "submitterId": 2,
+      "tagIds": [
+        7
+      ],
+      "priority": "low",
+      "status": "completed",
+      "duplicateOf": null,
+      "createdAt": "2026-08-24T05:56:23.941Z",
+      "updatedAt": "2026-08-24T05:56:23.941Z"
+    },
+    {
+      "id": 21,
+      "workspaceId": 2,
+      "title": "Pin notes to the top",
+      "description": "Keep the three notes I use daily at the top of the list.",
+      "categoryId": 6,
+      "submitterId": 4,
+      "tagIds": [],
+      "priority": "low",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-26T05:56:23.941Z",
+      "updatedAt": "2026-09-26T05:56:23.941Z"
+    },
+    {
+      "id": 22,
+      "workspaceId": 2,
+      "title": "Export a notebook as a ZIP of Markdown files",
+      "description": "I want a plain-files backup that works with any editor.",
+      "categoryId": 9,
+      "submitterId": 3,
+      "tagIds": [
+        7
+      ],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-09-29T05:56:23.941Z",
+      "updatedAt": "2026-09-29T05:56:23.941Z"
+    },
+    {
+      "id": 23,
+      "workspaceId": 2,
+      "title": "Team workspaces with shared tags",
+      "description": "Our team needs shared notebooks and a common tag list.",
+      "categoryId": 8,
+      "submitterId": 4,
+      "tagIds": [
+        8
+      ],
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-10-01T05:56:23.941Z",
+      "updatedAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 24,
+      "workspaceId": 2,
+      "title": "Web clipper for Firefox",
+      "description": "The Chrome clipper is great. Please ship a Firefox version.",
+      "categoryId": 9,
+      "submitterId": 4,
+      "tagIds": [],
+      "priority": "low",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-04T05:56:23.941Z",
+      "updatedAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 25,
+      "workspaceId": 2,
+      "title": "Version history",
+      "description": "Let me restore an older version of a note after a bad edit.",
+      "categoryId": 6,
+      "submitterId": 3,
+      "tagIds": [
+        8
+      ],
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-10-06T05:56:23.941Z",
+      "updatedAt": "2026-10-18T07:54:28.236Z"
+    },
+    {
+      "id": 26,
+      "workspaceId": 2,
+      "title": "Offline reading on Android",
+      "description": "Android users cannot open notes without a connection.",
+      "categoryId": 7,
+      "submitterId": 4,
+      "tagIds": [
+        6
+      ],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": 15,
+      "createdAt": "2026-10-09T05:56:23.941Z",
+      "updatedAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 27,
+      "workspaceId": 2,
+      "title": "Comment threads on shared notes",
+      "description": "Allow readers to leave comments on a shared note.",
+      "categoryId": 8,
+      "submitterId": 4,
+      "tagIds": [
+        8
+      ],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-11T05:56:23.941Z",
+      "updatedAt": "2026-10-11T05:56:23.941Z"
+    },
+    {
+      "id": 28,
+      "workspaceId": 3,
+      "title": "Live vessel position widget",
+      "description": "Add a map widget that shows live vessel positions on dashboards.",
+      "categoryId": 10,
+      "submitterId": 4,
+      "tagIds": [
+        10
+      ],
+      "priority": "high",
+      "status": "planned",
+      "duplicateOf": null,
+      "createdAt": "2026-10-01T05:56:23.941Z",
+      "updatedAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 29,
+      "workspaceId": 3,
+      "title": "Connect to PostgreSQL",
+      "description": "We store port call data in Postgres and want to query it directly.",
+      "categoryId": 11,
+      "submitterId": 5,
+      "tagIds": [
+        11
+      ],
+      "priority": "high",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-03T05:56:23.941Z",
+      "updatedAt": "2026-10-03T05:56:23.941Z"
+    },
+    {
+      "id": 30,
+      "workspaceId": 3,
+      "title": "Scheduled dashboard snapshots",
+      "description": "Send a PDF snapshot of a dashboard every morning.",
+      "categoryId": 10,
+      "submitterId": 4,
+      "tagIds": [],
+      "priority": "medium",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-07T05:56:23.941Z",
+      "updatedAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 31,
+      "workspaceId": 3,
+      "title": "Row level permissions",
+      "description": "Limit what each customer can see in shared dashboards.",
+      "categoryId": 11,
+      "submitterId": 5,
+      "tagIds": [
+        10
+      ],
+      "priority": "medium",
+      "status": "under_review",
+      "duplicateOf": null,
+      "createdAt": "2026-10-09T05:56:23.941Z",
+      "updatedAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 32,
+      "workspaceId": 3,
+      "title": "Custom colour themes",
+      "description": "Match charts to our corporate palette.",
+      "categoryId": 10,
+      "submitterId": 4,
+      "tagIds": [],
+      "priority": "low",
+      "status": "open",
+      "duplicateOf": null,
+      "createdAt": "2026-10-11T05:56:23.941Z",
+      "updatedAt": "2026-10-11T05:56:23.941Z"
+    }
+  ],
+  "votes": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 1,
+      "createdAt": "2026-09-03T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 4,
+      "createdAt": "2026-09-04T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 3,
+      "createdAt": "2026-09-05T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 7,
+      "createdAt": "2026-09-06T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 6,
+      "createdAt": "2026-09-07T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 5,
+      "createdAt": "2026-09-08T05:56:23.941Z"
+    },
+    {
+      "id": 7,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 8,
+      "createdAt": "2026-09-09T05:56:23.941Z"
+    },
+    {
+      "id": 8,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 9,
+      "createdAt": "2026-09-10T05:56:23.941Z"
+    },
+    {
+      "id": 9,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 2,
+      "createdAt": "2026-09-11T05:56:23.941Z"
+    },
+    {
+      "id": 10,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 9,
+      "createdAt": "2026-09-08T05:56:23.941Z"
+    },
+    {
+      "id": 11,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 5,
+      "createdAt": "2026-09-09T05:56:23.941Z"
+    },
+    {
+      "id": 12,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 6,
+      "createdAt": "2026-09-10T05:56:23.941Z"
+    },
+    {
+      "id": 13,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 1,
+      "createdAt": "2026-09-11T05:56:23.941Z"
+    },
+    {
+      "id": 14,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 3,
+      "createdAt": "2026-09-12T05:56:23.941Z"
+    },
+    {
+      "id": 15,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 2,
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 16,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 8,
+      "createdAt": "2026-09-14T05:56:23.941Z"
+    },
+    {
+      "id": 17,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 7,
+      "createdAt": "2026-09-15T05:56:23.941Z"
+    },
+    {
+      "id": 18,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 5,
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 19,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 2,
+      "createdAt": "2026-09-14T05:56:23.941Z"
+    },
+    {
+      "id": 20,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 6,
+      "createdAt": "2026-09-15T05:56:23.941Z"
+    },
+    {
+      "id": 21,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 9,
+      "createdAt": "2026-09-16T05:56:23.941Z"
+    },
+    {
+      "id": 22,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 1,
+      "createdAt": "2026-09-17T05:56:23.941Z"
+    },
+    {
+      "id": 23,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 8,
+      "createdAt": "2026-09-18T05:56:23.941Z"
+    },
+    {
+      "id": 24,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 4,
+      "createdAt": "2026-09-19T05:56:23.941Z"
+    },
+    {
+      "id": 25,
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 8,
+      "createdAt": "2026-08-14T05:56:23.941Z"
+    },
+    {
+      "id": 26,
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 9,
+      "createdAt": "2026-08-15T05:56:23.941Z"
+    },
+    {
+      "id": 27,
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 7,
+      "createdAt": "2026-08-16T05:56:23.941Z"
+    },
+    {
+      "id": 28,
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 5,
+      "createdAt": "2026-08-17T05:56:23.941Z"
+    },
+    {
+      "id": 29,
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 4,
+      "createdAt": "2026-08-18T05:56:23.941Z"
+    },
+    {
+      "id": 30,
+      "workspaceId": 1,
+      "feedbackId": 4,
+      "userId": 1,
+      "createdAt": "2026-08-19T05:56:23.941Z"
+    },
+    {
+      "id": 31,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 7,
+      "createdAt": "2026-09-23T05:56:23.941Z"
+    },
+    {
+      "id": 32,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 8,
+      "createdAt": "2026-09-24T05:56:23.941Z"
+    },
+    {
+      "id": 33,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 2,
+      "createdAt": "2026-09-25T05:56:23.941Z"
+    },
+    {
+      "id": 34,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 1,
+      "createdAt": "2026-09-26T05:56:23.941Z"
+    },
+    {
+      "id": 35,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 4,
+      "createdAt": "2026-09-27T05:56:23.941Z"
+    },
+    {
+      "id": 36,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 9,
+      "createdAt": "2026-09-28T05:56:23.941Z"
+    },
+    {
+      "id": 37,
+      "workspaceId": 1,
+      "feedbackId": 6,
+      "userId": 5,
+      "createdAt": "2026-09-25T05:56:23.941Z"
+    },
+    {
+      "id": 38,
+      "workspaceId": 1,
+      "feedbackId": 6,
+      "userId": 3,
+      "createdAt": "2026-09-26T05:56:23.941Z"
+    },
+    {
+      "id": 39,
+      "workspaceId": 1,
+      "feedbackId": 6,
+      "userId": 7,
+      "createdAt": "2026-09-27T05:56:23.941Z"
+    },
+    {
+      "id": 40,
+      "workspaceId": 1,
+      "feedbackId": 6,
+      "userId": 6,
+      "createdAt": "2026-09-28T05:56:23.941Z"
+    },
+    {
+      "id": 41,
+      "workspaceId": 1,
+      "feedbackId": 6,
+      "userId": 2,
+      "createdAt": "2026-09-29T05:56:23.941Z"
+    },
+    {
+      "id": 42,
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 2,
+      "createdAt": "2026-09-28T05:56:23.941Z"
+    },
+    {
+      "id": 43,
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 4,
+      "createdAt": "2026-09-29T05:56:23.941Z"
+    },
+    {
+      "id": 44,
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 7,
+      "createdAt": "2026-09-30T05:56:23.941Z"
+    },
+    {
+      "id": 45,
+      "workspaceId": 1,
+      "feedbackId": 7,
+      "userId": 5,
+      "createdAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 46,
+      "workspaceId": 1,
+      "feedbackId": 9,
+      "userId": 4,
+      "createdAt": "2026-09-18T05:56:23.941Z"
+    },
+    {
+      "id": 47,
+      "workspaceId": 1,
+      "feedbackId": 9,
+      "userId": 7,
+      "createdAt": "2026-09-19T05:56:23.941Z"
+    },
+    {
+      "id": 48,
+      "workspaceId": 1,
+      "feedbackId": 9,
+      "userId": 6,
+      "createdAt": "2026-09-20T05:56:23.941Z"
+    },
+    {
+      "id": 49,
+      "workspaceId": 1,
+      "feedbackId": 9,
+      "userId": 8,
+      "createdAt": "2026-09-21T05:56:23.941Z"
+    },
+    {
+      "id": 50,
+      "workspaceId": 1,
+      "feedbackId": 9,
+      "userId": 2,
+      "createdAt": "2026-09-22T05:56:23.941Z"
+    },
+    {
+      "id": 51,
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 4,
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 52,
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 7,
+      "createdAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 53,
+      "workspaceId": 1,
+      "feedbackId": 10,
+      "userId": 2,
+      "createdAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 54,
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 5,
+      "createdAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 55,
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 2,
+      "createdAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 56,
+      "workspaceId": 1,
+      "feedbackId": 11,
+      "userId": 3,
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 57,
+      "workspaceId": 1,
+      "feedbackId": 12,
+      "userId": 7,
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 58,
+      "workspaceId": 1,
+      "feedbackId": 12,
+      "userId": 4,
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 59,
+      "workspaceId": 1,
+      "feedbackId": 13,
+      "userId": 9,
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 60,
+      "workspaceId": 1,
+      "feedbackId": 13,
+      "userId": 6,
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 61,
+      "workspaceId": 2,
+      "feedbackId": 15,
+      "userId": 4,
+      "createdAt": "2026-09-10T05:56:23.941Z"
+    },
+    {
+      "id": 62,
+      "workspaceId": 2,
+      "feedbackId": 15,
+      "userId": 3,
+      "createdAt": "2026-09-11T05:56:23.941Z"
+    },
+    {
+      "id": 63,
+      "workspaceId": 2,
+      "feedbackId": 15,
+      "userId": 1,
+      "createdAt": "2026-09-12T05:56:23.941Z"
+    },
+    {
+      "id": 64,
+      "workspaceId": 2,
+      "feedbackId": 15,
+      "userId": 2,
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 65,
+      "workspaceId": 2,
+      "feedbackId": 16,
+      "userId": 3,
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 66,
+      "workspaceId": 2,
+      "feedbackId": 16,
+      "userId": 1,
+      "createdAt": "2026-09-14T05:56:23.941Z"
+    },
+    {
+      "id": 67,
+      "workspaceId": 2,
+      "feedbackId": 16,
+      "userId": 2,
+      "createdAt": "2026-09-15T05:56:23.941Z"
+    },
+    {
+      "id": 68,
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 4,
+      "createdAt": "2026-09-16T05:56:23.941Z"
+    },
+    {
+      "id": 69,
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 3,
+      "createdAt": "2026-09-17T05:56:23.941Z"
+    },
+    {
+      "id": 70,
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 1,
+      "createdAt": "2026-09-18T05:56:23.941Z"
+    },
+    {
+      "id": 71,
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 2,
+      "createdAt": "2026-09-19T05:56:23.941Z"
+    },
+    {
+      "id": 72,
+      "workspaceId": 2,
+      "feedbackId": 18,
+      "userId": 1,
+      "createdAt": "2026-09-19T05:56:23.941Z"
+    },
+    {
+      "id": 73,
+      "workspaceId": 2,
+      "feedbackId": 18,
+      "userId": 3,
+      "createdAt": "2026-09-20T05:56:23.941Z"
+    },
+    {
+      "id": 74,
+      "workspaceId": 2,
+      "feedbackId": 18,
+      "userId": 4,
+      "createdAt": "2026-09-21T05:56:23.941Z"
+    },
+    {
+      "id": 75,
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 2,
+      "createdAt": "2026-09-22T05:56:23.941Z"
+    },
+    {
+      "id": 76,
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 4,
+      "createdAt": "2026-09-23T05:56:23.941Z"
+    },
+    {
+      "id": 77,
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 3,
+      "createdAt": "2026-09-24T05:56:23.941Z"
+    },
+    {
+      "id": 78,
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 1,
+      "createdAt": "2026-09-25T05:56:23.941Z"
+    },
+    {
+      "id": 79,
+      "workspaceId": 2,
+      "feedbackId": 20,
+      "userId": 4,
+      "createdAt": "2026-08-24T05:56:23.941Z"
+    },
+    {
+      "id": 80,
+      "workspaceId": 2,
+      "feedbackId": 20,
+      "userId": 3,
+      "createdAt": "2026-08-25T05:56:23.941Z"
+    },
+    {
+      "id": 81,
+      "workspaceId": 2,
+      "feedbackId": 20,
+      "userId": 2,
+      "createdAt": "2026-08-26T05:56:23.941Z"
+    },
+    {
+      "id": 82,
+      "workspaceId": 2,
+      "feedbackId": 21,
+      "userId": 1,
+      "createdAt": "2026-09-26T05:56:23.941Z"
+    },
+    {
+      "id": 83,
+      "workspaceId": 2,
+      "feedbackId": 21,
+      "userId": 4,
+      "createdAt": "2026-09-27T05:56:23.941Z"
+    },
+    {
+      "id": 84,
+      "workspaceId": 2,
+      "feedbackId": 22,
+      "userId": 1,
+      "createdAt": "2026-09-29T05:56:23.941Z"
+    },
+    {
+      "id": 85,
+      "workspaceId": 2,
+      "feedbackId": 22,
+      "userId": 2,
+      "createdAt": "2026-09-30T05:56:23.941Z"
+    },
+    {
+      "id": 86,
+      "workspaceId": 2,
+      "feedbackId": 23,
+      "userId": 4,
+      "createdAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 87,
+      "workspaceId": 2,
+      "feedbackId": 23,
+      "userId": 1,
+      "createdAt": "2026-10-02T05:56:23.941Z"
+    },
+    {
+      "id": 88,
+      "workspaceId": 2,
+      "feedbackId": 24,
+      "userId": 3,
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 89,
+      "workspaceId": 2,
+      "feedbackId": 25,
+      "userId": 3,
+      "createdAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 90,
+      "workspaceId": 2,
+      "feedbackId": 25,
+      "userId": 4,
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 91,
+      "workspaceId": 2,
+      "feedbackId": 25,
+      "userId": 1,
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 92,
+      "workspaceId": 2,
+      "feedbackId": 27,
+      "userId": 1,
+      "createdAt": "2026-10-11T05:56:23.941Z"
+    },
+    {
+      "id": 93,
+      "workspaceId": 3,
+      "feedbackId": 28,
+      "userId": 4,
+      "createdAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 94,
+      "workspaceId": 3,
+      "feedbackId": 28,
+      "userId": 5,
+      "createdAt": "2026-10-02T05:56:23.941Z"
+    },
+    {
+      "id": 95,
+      "workspaceId": 3,
+      "feedbackId": 28,
+      "userId": 1,
+      "createdAt": "2026-10-03T05:56:23.941Z"
+    },
+    {
+      "id": 96,
+      "workspaceId": 3,
+      "feedbackId": 29,
+      "userId": 1,
+      "createdAt": "2026-10-03T05:56:23.941Z"
+    },
+    {
+      "id": 97,
+      "workspaceId": 3,
+      "feedbackId": 29,
+      "userId": 5,
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 98,
+      "workspaceId": 3,
+      "feedbackId": 29,
+      "userId": 4,
+      "createdAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 99,
+      "workspaceId": 3,
+      "feedbackId": 30,
+      "userId": 4,
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 100,
+      "workspaceId": 3,
+      "feedbackId": 30,
+      "userId": 1,
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 101,
+      "workspaceId": 3,
+      "feedbackId": 31,
+      "userId": 5,
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 102,
+      "workspaceId": 3,
+      "feedbackId": 31,
+      "userId": 1,
+      "createdAt": "2026-10-10T05:56:23.941Z"
+    },
+    {
+      "id": 103,
+      "workspaceId": 3,
+      "feedbackId": 32,
+      "userId": 5,
+      "createdAt": "2026-10-11T05:56:23.941Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 5,
+      "body": "We would use this every Monday for our pipeline review.",
+      "createdAt": "2026-09-05T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "feedbackId": 1,
+      "userId": 3,
+      "body": "Thanks! We are looking at delivery formats now.",
+      "createdAt": "2026-09-07T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "feedbackId": 2,
+      "userId": 4,
+      "body": "This would save our ops team hours every week.",
+      "createdAt": "2026-09-10T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "feedbackId": 5,
+      "userId": 6,
+      "body": "Same here with around 80k contacts.",
+      "createdAt": "2026-09-25T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "feedbackId": 3,
+      "userId": 4,
+      "body": "PWA would be enough for us as long as push works.",
+      "createdAt": "2026-09-15T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 1,
+      "feedbackId": 6,
+      "userId": 5,
+      "body": "Would love a per-pipeline channel setting.",
+      "createdAt": "2026-09-27T05:56:23.941Z"
+    },
+    {
+      "id": 7,
+      "workspaceId": 2,
+      "feedbackId": 15,
+      "userId": 3,
+      "body": "Offline mode is our top priority this quarter.",
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 8,
+      "workspaceId": 2,
+      "feedbackId": 19,
+      "userId": 4,
+      "body": "Happened to me twice this week.",
+      "createdAt": "2026-09-23T05:56:23.941Z"
+    },
+    {
+      "id": 9,
+      "workspaceId": 2,
+      "feedbackId": 17,
+      "userId": 2,
+      "body": "We are scoping read-only links alongside permissions.",
+      "createdAt": "2026-09-18T05:56:23.941Z"
+    },
+    {
+      "id": 10,
+      "workspaceId": 3,
+      "feedbackId": 28,
+      "userId": 5,
+      "body": "Would help our dispatchers a lot.",
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    }
+  ],
+  "roadmapItems": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "title": "Scheduled reports",
+      "description": "Weekly and monthly pipeline reports delivered by email.",
+      "stage": "planned",
+      "published": true,
+      "feedbackIds": [
+        1,
+        8
+      ],
+      "createdAt": "2026-07-20T05:56:23.941Z",
+      "updatedAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "title": "Salesforce sync",
+      "description": "Two-way contact and deal sync with Salesforce.",
+      "stage": "in_progress",
+      "published": true,
+      "feedbackIds": [
+        2
+      ],
+      "createdAt": "2026-07-21T05:56:23.941Z",
+      "updatedAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "title": "Dashboard performance overhaul",
+      "description": "Faster dashboards for accounts with large contact lists.",
+      "stage": "in_progress",
+      "published": true,
+      "feedbackIds": [
+        5
+      ],
+      "createdAt": "2026-07-22T05:56:23.941Z",
+      "updatedAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "title": "Bulk edit for deals",
+      "description": "Select many deals and change owner, stage or close date at once.",
+      "stage": "completed",
+      "published": true,
+      "feedbackIds": [
+        4
+      ],
+      "createdAt": "2026-07-23T05:56:23.941Z",
+      "updatedAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "title": "Mobile app research",
+      "description": "Interviewing customers to decide between native and PWA.",
+      "stage": "under_review",
+      "published": true,
+      "feedbackIds": [
+        3,
+        14
+      ],
+      "createdAt": "2026-07-24T05:56:23.941Z",
+      "updatedAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 1,
+      "title": "Custom contact fields",
+      "description": "Add your own fields to contact records.",
+      "stage": "planned",
+      "published": false,
+      "feedbackIds": [
+        9
+      ],
+      "createdAt": "2026-07-25T05:56:23.941Z",
+      "updatedAt": "2026-10-03T05:56:23.941Z"
+    },
+    {
+      "id": 7,
+      "workspaceId": 2,
+      "title": "Offline mode",
+      "description": "Cache notebooks on iOS and Android for offline reading and editing.",
+      "stage": "planned",
+      "published": true,
+      "feedbackIds": [
+        15,
+        26
+      ],
+      "createdAt": "2026-08-19T05:56:23.941Z",
+      "updatedAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 8,
+      "workspaceId": 2,
+      "title": "Markdown tables",
+      "description": "Table syntax and a visual table editor.",
+      "stage": "in_progress",
+      "published": true,
+      "feedbackIds": [
+        16
+      ],
+      "createdAt": "2026-08-20T05:56:23.941Z",
+      "updatedAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 9,
+      "workspaceId": 2,
+      "title": "Sync conflict resolver",
+      "description": "Merge edits made on two devices instead of overwriting.",
+      "stage": "in_progress",
+      "published": true,
+      "feedbackIds": [
+        19
+      ],
+      "createdAt": "2026-08-21T05:56:23.941Z",
+      "updatedAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 10,
+      "workspaceId": 2,
+      "title": "Slash commands",
+      "description": "Quickly insert blocks by typing a slash.",
+      "stage": "completed",
+      "published": true,
+      "feedbackIds": [
+        20
+      ],
+      "createdAt": "2026-08-22T05:56:23.941Z",
+      "updatedAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 11,
+      "workspaceId": 2,
+      "title": "Version history",
+      "description": "Browse and restore earlier versions of any note.",
+      "stage": "planned",
+      "published": true,
+      "feedbackIds": [
+        25
+      ],
+      "createdAt": "2026-08-23T05:56:23.941Z",
+      "updatedAt": "2026-10-18T07:54:28.176Z"
+    },
+    {
+      "id": 12,
+      "workspaceId": 3,
+      "title": "Live vessel map",
+      "description": "Real-time vessel positions in dashboards.",
+      "stage": "planned",
+      "published": false,
+      "feedbackIds": [
+        28
+      ],
+      "createdAt": "2026-09-18T05:56:23.941Z",
+      "updatedAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 13,
+      "workspaceId": 3,
+      "title": "Postgres connector",
+      "description": "Query Postgres databases directly.",
+      "stage": "under_review",
+      "published": false,
+      "feedbackIds": [
+        29
+      ],
+      "createdAt": "2026-09-19T05:56:23.941Z",
+      "updatedAt": "2026-10-07T05:56:23.941Z"
+    }
+  ],
+  "releaseNotes": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "version": "2.5.0",
+      "releaseDate": "2026-10-03",
+      "summary": "Draft notes for the upcoming dashboard performance work.",
+      "roadmapItemIds": [],
+      "status": "draft",
+      "createdAt": "2026-10-03T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "version": "2.4.0",
+      "releaseDate": "2026-09-22",
+      "summary": "Bulk edit for deals is here. Select multiple deals and update owner, stage or close date in one step.",
+      "roadmapItemIds": [
+        4
+      ],
+      "status": "published",
+      "createdAt": "2026-09-22T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "version": "2.3.0",
+      "releaseDate": "2026-08-04",
+      "summary": "Improved CSV import with column mapping and better error messages.",
+      "roadmapItemIds": [],
+      "status": "archived",
+      "createdAt": "2026-08-04T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 2,
+      "version": "1.9.0",
+      "releaseDate": "2026-10-08",
+      "summary": "Draft notes for tables and the sync conflict resolver.",
+      "roadmapItemIds": [],
+      "status": "draft",
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 2,
+      "version": "1.8.0",
+      "releaseDate": "2026-09-13",
+      "summary": "Slash commands make writing faster. Type / anywhere to insert headings, lists and code blocks.",
+      "roadmapItemIds": [
+        10
+      ],
+      "status": "published",
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 3,
+      "version": "0.3.0",
+      "releaseDate": "2026-09-29",
+      "summary": "Initial beta of shareable dashboards.",
+      "roadmapItemIds": [],
+      "status": "published",
+      "createdAt": "2026-09-29T05:56:23.941Z"
+    }
+  ],
+  "subscriptionPlans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": 0,
+      "description": "For small teams getting started.",
+      "limits": {
+        "members": 5,
+        "feedback": 15,
+        "roadmapItems": 6
+      }
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "price": 49,
+      "description": "For growing product teams.",
+      "limits": {
+        "members": 50,
+        "feedback": 1000,
+        "roadmapItems": 200
+      }
+    }
+  ],
+  "workspaceSubscriptions": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "planId": "pro",
+      "startedAt": "2026-07-15T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 2,
+      "planId": "free",
+      "startedAt": "2026-08-14T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 3,
+      "planId": "free",
+      "startedAt": "2026-09-13T05:56:23.941Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": 1,
+      "workspaceId": 1,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Scheduled weekly pipeline report\"",
+      "createdAt": "2026-09-03T05:56:23.941Z"
+    },
+    {
+      "id": 2,
+      "workspaceId": 1,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"Salesforce two-way sync\"",
+      "createdAt": "2026-09-08T05:56:23.941Z"
+    },
+    {
+      "id": 3,
+      "workspaceId": 1,
+      "userId": 6,
+      "message": "Meera Nair submitted feedback \"Native iOS app\"",
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 4,
+      "workspaceId": 1,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Bulk edit deal owners\"",
+      "createdAt": "2026-08-14T05:56:23.941Z"
+    },
+    {
+      "id": 5,
+      "workspaceId": 1,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"Dashboard loads slowly with 50k contacts\"",
+      "createdAt": "2026-09-23T05:56:23.941Z"
+    },
+    {
+      "id": 6,
+      "workspaceId": 1,
+      "userId": 6,
+      "message": "Meera Nair submitted feedback \"Slack notifications for won deals\"",
+      "createdAt": "2026-09-25T05:56:23.941Z"
+    },
+    {
+      "id": 7,
+      "workspaceId": 1,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Dark mode\"",
+      "createdAt": "2026-09-28T05:56:23.941Z"
+    },
+    {
+      "id": 8,
+      "workspaceId": 1,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"Email the pipeline report on a schedule\"",
+      "createdAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 9,
+      "workspaceId": 1,
+      "userId": 6,
+      "message": "Meera Nair submitted feedback \"Custom fields on contacts\"",
+      "createdAt": "2026-09-18T05:56:23.941Z"
+    },
+    {
+      "id": 10,
+      "workspaceId": 1,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Mobile push reminders for follow-ups\"",
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 11,
+      "workspaceId": 1,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"Duplicate contact detection\"",
+      "createdAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 12,
+      "workspaceId": 1,
+      "userId": 6,
+      "message": "Meera Nair submitted feedback \"Export reports to PDF\"",
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 13,
+      "workspaceId": 1,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Public API rate limits are too strict\"",
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 14,
+      "workspaceId": 1,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"iPhone app please\"",
+      "createdAt": "2026-10-10T05:56:23.941Z"
+    },
+    {
+      "id": 15,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Roadmap item \"Scheduled reports\" is planned",
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 16,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Roadmap item \"Salesforce sync\" is in progress",
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 17,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Roadmap item \"Dashboard performance overhaul\" is in progress",
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 18,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Roadmap item \"Bulk edit for deals\" is completed",
+      "createdAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 19,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Roadmap item \"Mobile app research\" is under review",
+      "createdAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 20,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Roadmap item \"Custom contact fields\" is planned",
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 21,
+      "workspaceId": 1,
+      "userId": 1,
+      "message": "Release 2.4.0 published",
+      "createdAt": "2026-09-22T05:56:23.941Z"
+    },
+    {
+      "id": 22,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Offline mode for mobile\"",
+      "createdAt": "2026-09-10T05:56:23.941Z"
+    },
+    {
+      "id": 23,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Markdown tables\"",
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 24,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Share notebooks with read-only links\"",
+      "createdAt": "2026-09-16T05:56:23.941Z"
+    },
+    {
+      "id": 25,
+      "workspaceId": 2,
+      "userId": 3,
+      "message": "Rohan Iyer submitted feedback \"Import from Evernote\"",
+      "createdAt": "2026-09-19T05:56:23.941Z"
+    },
+    {
+      "id": 26,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Sync conflicts overwrite my edits\"",
+      "createdAt": "2026-09-22T05:56:23.941Z"
+    },
+    {
+      "id": 27,
+      "workspaceId": 2,
+      "userId": 2,
+      "message": "Neha Kapoor submitted feedback \"Slash commands\"",
+      "createdAt": "2026-08-24T05:56:23.941Z"
+    },
+    {
+      "id": 28,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Pin notes to the top\"",
+      "createdAt": "2026-09-26T05:56:23.941Z"
+    },
+    {
+      "id": 29,
+      "workspaceId": 2,
+      "userId": 3,
+      "message": "Rohan Iyer submitted feedback \"Export a notebook as a ZIP of Markdown files\"",
+      "createdAt": "2026-09-29T05:56:23.941Z"
+    },
+    {
+      "id": 30,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Team workspaces with shared tags\"",
+      "createdAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 31,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Web clipper for Firefox\"",
+      "createdAt": "2026-10-04T05:56:23.941Z"
+    },
+    {
+      "id": 32,
+      "workspaceId": 2,
+      "userId": 3,
+      "message": "Rohan Iyer submitted feedback \"Version history\"",
+      "createdAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 33,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Offline reading on Android\"",
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 34,
+      "workspaceId": 2,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Comment threads on shared notes\"",
+      "createdAt": "2026-10-11T05:56:23.941Z"
+    },
+    {
+      "id": 35,
+      "workspaceId": 2,
+      "userId": 1,
+      "message": "Roadmap item \"Offline mode\" is planned",
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 36,
+      "workspaceId": 2,
+      "userId": 1,
+      "message": "Roadmap item \"Markdown tables\" is in progress",
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 37,
+      "workspaceId": 2,
+      "userId": 1,
+      "message": "Roadmap item \"Sync conflict resolver\" is in progress",
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 38,
+      "workspaceId": 2,
+      "userId": 1,
+      "message": "Roadmap item \"Slash commands\" is completed",
+      "createdAt": "2026-10-06T05:56:23.941Z"
+    },
+    {
+      "id": 39,
+      "workspaceId": 2,
+      "userId": 1,
+      "message": "Roadmap item \"Version history\" is under review",
+      "createdAt": "2026-10-05T05:56:23.941Z"
+    },
+    {
+      "id": 40,
+      "workspaceId": 2,
+      "userId": 1,
+      "message": "Release 1.8.0 published",
+      "createdAt": "2026-09-13T05:56:23.941Z"
+    },
+    {
+      "id": 41,
+      "workspaceId": 3,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Live vessel position widget\"",
+      "createdAt": "2026-10-01T05:56:23.941Z"
+    },
+    {
+      "id": 42,
+      "workspaceId": 3,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"Connect to PostgreSQL\"",
+      "createdAt": "2026-10-03T05:56:23.941Z"
+    },
+    {
+      "id": 43,
+      "workspaceId": 3,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Scheduled dashboard snapshots\"",
+      "createdAt": "2026-10-07T05:56:23.941Z"
+    },
+    {
+      "id": 44,
+      "workspaceId": 3,
+      "userId": 5,
+      "message": "Kabir Singh submitted feedback \"Row level permissions\"",
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 45,
+      "workspaceId": 3,
+      "userId": 4,
+      "message": "Sara Khan submitted feedback \"Custom colour themes\"",
+      "createdAt": "2026-10-11T05:56:23.941Z"
+    },
+    {
+      "id": 46,
+      "workspaceId": 3,
+      "userId": 1,
+      "message": "Roadmap item \"Live vessel map\" is planned",
+      "createdAt": "2026-10-09T05:56:23.941Z"
+    },
+    {
+      "id": 47,
+      "workspaceId": 3,
+      "userId": 1,
+      "message": "Roadmap item \"Postgres connector\" is under review",
+      "createdAt": "2026-10-08T05:56:23.941Z"
+    },
+    {
+      "id": 48,
+      "workspaceId": 3,
+      "userId": 1,
+      "message": "Release 0.3.0 published",
+      "createdAt": "2026-09-29T05:56:23.941Z"
+    },
+    {
+      "workspaceId": 2,
+      "userId": 2,
+      "message": "Roadmap item \"Version history\" moved to Planned",
+      "createdAt": "2026-10-18T07:54:28.265Z",
+      "id": 49
+    }
+  ]
+}
